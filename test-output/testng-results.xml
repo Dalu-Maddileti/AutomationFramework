@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[---Database connection established---]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Log in page got opened]]>
+    </line>
+    <line>
+      <![CDATA[Home page got opened]]>
+    </line>
+    <line>
+      <![CDATA[Contact page got opened]]>
+    </line>
+    <line>
+      <![CDATA[Create contact page got opened]]>
+    </line>
+    <line>
+      <![CDATA[Contact info page got opened]]>
+    </line>
+    <line>
+      <![CDATA[Logout page got opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[---Database connection disconnected--]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-06T14:46:12 IST" name="Default suite" finished-at="2024-06-06T14:47:39 IST" duration-ms="86304">
+    <groups>
+      <group name="Smoke">
+        <method signature="ToCreateContactTests.toCreateContact_001()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" name="toCreateContact_001" class="vtiger.contactsTests.ToCreateContactTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-06T14:46:12 IST" name="Default test" finished-at="2024-06-06T14:47:39 IST" duration-ms="86304">
+      <class name="vtiger.contactsTests.ToCreateContactTests">
+        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" started-at="2024-06-06T14:46:12 IST" name="beforeSuiteConfig" finished-at="2024-06-06T14:46:12 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Database connection established---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteConfig -->
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" started-at="2024-06-06T14:46:13 IST" name="beforeClassConfig" finished-at="2024-06-06T14:46:29 IST" duration-ms="16478" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Log in page got opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfig -->
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" started-at="2024-06-06T14:46:29 IST" name="beforeMethodConfig" finished-at="2024-06-06T14:46:44 IST" duration-ms="14962" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page got opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfig -->
+        <test-method signature="toCreateContact_001()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" started-at="2024-06-06T14:46:44 IST" name="toCreateContact_001" finished-at="2024-06-06T14:47:34 IST" duration-ms="50107" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at vtiger.contactsTests.ToCreateContactTests.toCreateContact_001(ToCreateContactTests.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Contact page got opened]]>
+            </line>
+            <line>
+              <![CDATA[Create contact page got opened]]>
+            </line>
+            <line>
+              <![CDATA[Contact info page got opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateContact_001 -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" started-at="2024-06-06T14:47:34 IST" name="afterMethodConfig" finished-at="2024-06-06T14:47:38 IST" duration-ms="3760" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout page got opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfig -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" started-at="2024-06-06T14:47:38 IST" name="afterClass" finished-at="2024-06-06T14:47:39 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuiteConfig()[pri:0, instance:vtiger.contactsTests.ToCreateContactTests@4145bad8]" started-at="2024-06-06T14:47:40 IST" name="afterSuiteConfig" finished-at="2024-06-06T14:47:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Database connection disconnected--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuiteConfig -->
+      </class> <!-- vtiger.contactsTests.ToCreateContactTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
